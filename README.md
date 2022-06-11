@@ -2,7 +2,8 @@
 
 ## Coverage commands
 Ver el coverage de nuestros test para los métodos de nuestra aplicación menos los path incluidos en el omit 
-`coverage run --omit=*/.virtualenvs/*,*/tests/* - m unittest discover -v`
+`pip install coverage`
+`coverage run --omit=*/.virtualenvs/*,*/tests/* -m unittest discover -v`
 
 Informe resumen del coverage por cada fichero
 `coverage report -m`
